@@ -23,10 +23,10 @@ figure
 set(gcf,'Units','centimeters','Position',[0 0 10 5])
 hold on ; grid on ; box on
 set(gca,'xlim',[-15 1])
-plot(R(1,:),'r')
-plot(real(R(1,1)),imag(R(1,1)),'r*','linewidth',1)
-plot(R(2,:),'b')
-plot(real(R(2,1)),imag(R(2,1)),'b*','linewidth',1)
+plot(R(1,:),'r','linewidth',1.5)
+plot(real(R(1,1)),imag(R(1,1)),'r*','markersize',7)
+plot(R(2,:),'b','linewidth',1.5)
+plot(real(R(2,1)),imag(R(2,1)),'b*','markersize',7)
 
 xlabel('Real axis')
 ylabel('Imaginary axis')
